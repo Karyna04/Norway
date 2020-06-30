@@ -1,0 +1,55 @@
+.form {
+  padding-bottom: 32px;
+}
+.form-control {
+  margin-bottom: 18px;
+  position: relative;
+}
+.label {
+  font-size: 14px;
+  line-height: 16px;
+  color: #373f55;
+}
+.label-footer {
+  color: #ffffff;
+}
+
+.form-error-message {
+  color: #ffffff;
+  padding: 10px;
+  display: none;
+  position: absolute;
+}
+.input {
+  width: 100%;
+  border: 1px solid #f2f7ff;
+  padding: 10px 24px;
+  background-color: #f2f7ff;
+  color: #373f55;
+  border-radius: 133px;
+  font-size: inherit;
+  height: 52px;
+  margin-top: 12px;
+}
+.input:disabled {
+  background-color: #f2f7ff;
+  color: #373f55;
+  border-color: #f2f7ff;
+}
+
+.input:invalid:not(:placeholder-shown) {
+  display: block;
+  border-color: red;
+}
+.input:invalid + .form-error-message {
+  display: block;
+  border-color: red;
+}
+
+.input:focus,
+.select:focus {
+  outline: none;
+  background-color: #f2f7ff;
+  color: #373f55;
+  border-color: #f2f7ff;
+}

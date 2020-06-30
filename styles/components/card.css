@@ -1,0 +1,222 @@
+.card {
+  background: #ffffff;
+  -webkit-box-shadow: 4px 4px 46px rgba(10, 34, 67, 0.07);
+  box-shadow: 4px 4px 46px rgba(10, 34, 67, 0.07);
+  border-radius: 34px;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+.section-daily .card-image img {
+  height: 173px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+.section-daily .card-body {
+  padding: 21px 17px 28px;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+.section-daily .card-footer {
+  padding: 8px 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+.section-daily .card {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+  -webkit-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+.section-daily .card:hover {
+  -webkit-transform: scale(1.03);
+  -ms-transform: scale(1.03);
+  transform: scale(1.03);
+}
+.section-daily .card-title {
+  padding-top: 13px;
+}
+.section-daily .card-price {
+  padding-top: 8px;
+}
+@media (min-width: 960px) and (max-width: 1100px) {
+  .section-daily .card-title {
+    font-size: 18px;
+  }
+}
+
+.section-reviews .card-image img {
+  height: 50px;
+}
+.section-reviews .card {
+  padding: 22px;
+  min-height: 188px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 100%;
+  transition: none;
+}
+.section-reviews .card:hover {
+  transform: none;
+}
+.section-reviews .card-review-content {
+  flex-grow: 1;
+}
+.section-reviews .card-body {
+  padding: 18px 0 24px;
+}
+.section-reviews .card-description {
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+}
+.section-reviews .card-footer {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.card-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.card-social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.card-location {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-left: 20px;
+}
+.card-name {
+  font-size: 18px;
+  line-height: 26px;
+  color: #000000;
+  margin: 0;
+}
+.card-city {
+  font-size: 13px;
+  line-height: 18px;
+  color: #888ea0;
+  margin: 0;
+}
+.card-link {
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: underline;
+  color: #0f2d47;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 500;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+.card-link:hover {
+  color: #0d00ff;
+  text-decoration: underline;
+}
+.card-image img {
+  border-top-left-radius: 34px;
+  border-top-right-radius: 34px;
+  height: 229px;
+}
+
+.card-body {
+  padding: 28px 17px 0;
+  flex-grow: 1;
+}
+.card-footer {
+  padding: 13px 19px 27px;
+  display: flex;
+  justify-content: space-between;
+}
+.card-reviews {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.card-number-reviews {
+  font-size: 13px;
+  line-height: 15px;
+  color: #888ea0;
+  padding-left: 10px;
+}
+.card-title {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #373f55;
+  margin: 0;
+  padding-top: 15px;
+}
+.card-description {
+  font-size: 16px;
+  line-height: 20px;
+  color: #464649;
+  margin: 0;
+  padding-top: 8px;
+}
+.card-duration-price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.card-duration {
+  font-size: 13px;
+  line-height: 15px;
+  color: #888ea0;
+  margin: 0;
+  padding-top: 27px;
+}
+.card-price {
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 36px;
+  color: #373f55;
+  margin: 0;
+  padding-top: 13px;
+}
